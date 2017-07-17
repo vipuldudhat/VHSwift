@@ -1,0 +1,6 @@
+framework module VHSwift {
+  umbrella header "VHSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
