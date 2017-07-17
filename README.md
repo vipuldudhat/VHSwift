@@ -1,6 +1,6 @@
 # VHSwift
 
-[![CI Status](http://img.shields.io/travis/Vipul Dudhat/VHSwift.svg?style=flat)](https://travis-ci.org/Vipul Dudhat/VHSwift)
+[![CI Status](http://img.shields.io/travis/VipulDudhat/VHSwift.svg?style=flat)](https://travis-ci.org/Vipul Dudhat/VHSwift)
 [![Version](https://img.shields.io/cocoapods/v/VHSwift.svg?style=flat)](http://cocoapods.org/pods/VHSwift)
 [![License](https://img.shields.io/cocoapods/l/VHSwift.svg?style=flat)](http://cocoapods.org/pods/VHSwift)
 [![Platform](https://img.shields.io/cocoapods/p/VHSwift.svg?style=flat)](http://cocoapods.org/pods/VHSwift)
