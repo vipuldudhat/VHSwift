@@ -14,8 +14,8 @@
 		7EA7A3915FB22F76A0CBF18B21395BFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		877F78E3908CD7F8BC1CF419B917F497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8B9DAF093DBFD625987499F82915B1FD /* Pods-VHSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED9D9C7BAA2EDEDD7185F0E1A2577B3 /* Pods-VHSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF90A541F1CD22800EF9732 /* VHViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF90A531F1CD22800EF9732 /* VHViewExtension.swift */; };
 		9D58E6B4C1369753A03DD06ABEB3D7D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A0E6223D435B72C3434998B3F7188E11 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD38AF958745C5F705B24EB13D5AB7 /* ReplaceMe.swift */; };
 		C5A40972A1A30A69D1B14D70B5DB4EE0 /* Pods-VHSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C38BF0A3EEA11CF6A0BFC1CFBF8A4F3 /* Pods-VHSwift_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -36,16 +36,16 @@
 		2BD079EE878EC55A8DDB0CE3E02D3241 /* Pods-VHSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VHSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2C38BF0A3EEA11CF6A0BFC1CFBF8A4F3 /* Pods-VHSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VHSwift_Example-dummy.m"; sourceTree = "<group>"; };
 		2ED9D9C7BAA2EDEDD7185F0E1A2577B3 /* Pods-VHSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VHSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
-		33399AAA2E67EAAF82E751414F70634F /* Pods_VHSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VHSwift_Tests.framework; path = "Pods-VHSwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DBD38AF958745C5F705B24EB13D5AB7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		33399AAA2E67EAAF82E751414F70634F /* Pods_VHSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VHSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46DEBBDD99B0C1FF257ABD0BD987DB1E /* VHSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VHSwift-dummy.m"; sourceTree = "<group>"; };
-		4BCF6A7583BABD5AEB67D28B493A86A6 /* Pods-VHSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VHSwift_Example.modulemap"; sourceTree = "<group>"; };
-		55D9C5B35AE02182698FA7AF1EF66B82 /* VHSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VHSwift.framework; path = VHSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCF6A7583BABD5AEB67D28B493A86A6 /* Pods-VHSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VHSwift_Example.modulemap"; sourceTree = "<group>"; };
+		55D9C5B35AE02182698FA7AF1EF66B82 /* VHSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VHSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6C0352CF824BECBA3DA5613B7680BC6C /* VHSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VHSwift.xcconfig; sourceTree = "<group>"; };
 		7A8C5FC569B41EE6DE8B89D7CC4A53B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83585550257F8871CA343F459F1713FC /* Pods-VHSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VHSwift_Tests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		83585550257F8871CA343F459F1713FC /* Pods-VHSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VHSwift_Tests.modulemap"; sourceTree = "<group>"; };
+		8CF90A531F1CD22800EF9732 /* VHViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VHViewExtension.swift; path = UIView/VHViewExtension.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3D9CEA4FC2B8B24F01F803BB483F806 /* Pods-VHSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VHSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A713902E95B7782812AB3208A5C77B51 /* Pods-VHSwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VHSwift_Example-resources.sh"; sourceTree = "<group>"; };
 		AA56FC99FF6A9D23A1697DF721FD5FD5 /* Pods-VHSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VHSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -58,8 +58,8 @@
 		CEBC1AE7F0C78A3E816D64110B557323 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2A849D7EE4EDAFD81AD4973C2DA9384 /* Pods-VHSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VHSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E4954DDBCA42438ECD16A818C125CC40 /* Pods-VHSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VHSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		EEDF364FD1BFCF2E17D2B57A554111EB /* VHSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VHSwift.modulemap; sourceTree = "<group>"; };
-		F9BF53FC10A6E6994CDB411DD8DD8979 /* Pods_VHSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VHSwift_Example.framework; path = "Pods-VHSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDF364FD1BFCF2E17D2B57A554111EB /* VHSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VHSwift.modulemap; sourceTree = "<group>"; };
+		F9BF53FC10A6E6994CDB411DD8DD8979 /* Pods_VHSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VHSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2061F610DF0BC3F434297668920F9B /* Pods-VHSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VHSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FDDFDE7E4A8C1DE40390844FC6A555E4 /* VHSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VHSwift-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,8 +159,15 @@
 			children = (
 				D62581B5037C30AB124D7074CDBFBEF0 /* Classes */,
 			);
-			name = VHSwift;
 			path = VHSwift;
+			sourceTree = "<group>";
+		};
+		8CF90A521F1CD17100EF9732 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				8CF90A531F1CD22800EF9732 /* VHViewExtension.swift */,
+			);
+			name = UIView;
 			sourceTree = "<group>";
 		};
 		991728F346D22FD2AD8582B6E0EC04EA /* Development Pods */ = {
@@ -190,9 +197,8 @@
 		D62581B5037C30AB124D7074CDBFBEF0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3DBD38AF958745C5F705B24EB13D5AB7 /* ReplaceMe.swift */,
+				8CF90A521F1CD17100EF9732 /* UIView */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -314,6 +320,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					368E861A5EE624DF5614A2DA13EDBF5F = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -339,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF90A541F1CD22800EF9732 /* VHViewExtension.swift in Sources */,
 				C5A40972A1A30A69D1B14D70B5DB4EE0 /* Pods-VHSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +359,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0E6223D435B72C3434998B3F7188E11 /* ReplaceMe.swift in Sources */,
 				0CB92F0044B6FD2EB3A4BE5C52167311 /* VHSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E2A849D7EE4EDAFD81AD4973C2DA9384 /* Pods-VHSwift_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -542,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC2061F610DF0BC3F434297668920F9B /* Pods-VHSwift_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
