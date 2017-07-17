@@ -22,7 +22,7 @@ pod "VHSwift"
 
 ## Author
 
-Vipul Dudhat, vipulp444@gmail.com
+Vipul Dudhat, vipul@sccinfotech.com
 
 ## License
 
